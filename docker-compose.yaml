@@ -163,7 +163,7 @@ services:
     # Uncomment to enable Instana EUM
     environment:
       INSTANA_EUM_KEY: LeIqN4ydTQynqAa0figeFw
-      INSTANA_EUM_REPORTING_URL: https://pumpkin.instana.io/eum/
+      INSTANA_EUM_REPORTING_URL: "https://pumpkin.instana.io/eum/"
     logging:
       <<: *logging
 
